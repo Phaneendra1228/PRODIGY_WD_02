@@ -1,0 +1,50 @@
+0000000000000000000000000000000000000000 dd12a506180900bc59e6cb26508d08ce7d23ae41 Phaneendra1228 <phanee2005@gmail.com> 1778842026 +0530	commit (initial): Initial commit
+dd12a506180900bc59e6cb26508d08ce7d23ae41 a85402fde7de0cf3dcbb766758c685333d274636 Phaneendra1228 <phanee2005@gmail.com> 1778842128 +0530	commit: Add README.md
+a85402fde7de0cf3dcbb766758c685333d274636 25418a7382ffe0bfac451247f6bb8424a6e7b984 Phaneendra1228 <phanee2005@gmail.com> 1778843981 +0530	commit: Stop tracking README.md
+25418a7382ffe0bfac451247f6bb8424a6e7b984 7b1419122d4e4fdc02170abbe0279775af2135d2 Phaneendra1228 <phanee2005@gmail.com> 1778848283 +0530	commit: Update Entrance Exam Coach project URL and text
+7b1419122d4e4fdc02170abbe0279775af2135d2 c70164615ddadc2f1f2abe916459c4f62f906cf8 Phaneendra1228 <phanee2005@gmail.com> 1778848772 +0530	commit: Enhance README.md and remove .gitignore
+c70164615ddadc2f1f2abe916459c4f62f906cf8 e182dcaef8afb33554b5c9a7050f7282197edf03 Phaneendra1228 <phanee2005@gmail.com> 1778849066 +0530	commit: Hide Portfolio repository from projects grid
+e182dcaef8afb33554b5c9a7050f7282197edf03 fe9d0717feee78fbbb9fa4e0841acf74bb363647 Phaneendra1228 <phanee2005@gmail.com> 1778851284 +0530	commit: Update script.js
+fe9d0717feee78fbbb9fa4e0841acf74bb363647 a4cfc36ec660fa650b2d989dc322bce4cadbed4d Phaneendra1228 <phanee2005@gmail.com> 1778854598 +0530	commit: Optimize: Mobile responsiveness, smooth scrolling, performance improvements, lazy loading, accessibility enhancements
+a4cfc36ec660fa650b2d989dc322bce4cadbed4d fe9d0717feee78fbbb9fa4e0841acf74bb363647 Phaneendra1228 <phanee2005@gmail.com> 1778854676 +0530	reset: moving to fe9d071
+fe9d0717feee78fbbb9fa4e0841acf74bb363647 fef01730107afcbc49fa8ab0f7f37bea7165f76a Phaneendra1228 <phanee2005@gmail.com> 1778854884 +0530	commit: Improve efficiency and smooth scrolling: Add lazy loading, debounce events, optimize parallax, enhance scroll padding
+fef01730107afcbc49fa8ab0f7f37bea7165f76a 9da68669145786aebb6ed41408a98037c9f51eb7 Phaneendra1228 <phanee2005@gmail.com> 1778858329 +0530	commit: Wire contact form to FormSubmit.co service
+9da68669145786aebb6ed41408a98037c9f51eb7 ed430356ec5a864b82dbd687b5df6228312f8413 Phaneendra1228 <phanee2005@gmail.com> 1778858833 +0530	commit: Add simple contact backend and admin message viewer
+ed430356ec5a864b82dbd687b5df6228312f8413 b0c7aa17f49abc850c2d3008816b60eb8194554b Phaneendra1228 <phanee2005@gmail.com> 1778859025 +0530	commit: Fix contact form submission encoding for Express backend
+b0c7aa17f49abc850c2d3008816b60eb8194554b b1e4838b90d255ac9121058f18fdfd4fa9098f10 Phaneendra1228 <phanee2005@gmail.com> 1778859190 +0530	commit: Add PM2 support to keep backend running continuously
+b1e4838b90d255ac9121058f18fdfd4fa9098f10 f1434f1dc0e658758276c11b67f08372ee076f6e Phaneendra1228 <phanee2005@gmail.com> 1778859302 +0530	commit: Improve contact form error messages for backend availability
+f1434f1dc0e658758276c11b67f08372ee076f6e 7b1419122d4e4fdc02170abbe0279775af2135d2 Phaneendra1228 <phanee2005@gmail.com> 1778859505 +0530	reset: moving to 7b14191
+7b1419122d4e4fdc02170abbe0279775af2135d2 ef196ede99c291e063707e2a8cc1251ce9900caa Phaneendra1228 <phanee2005@gmail.com> 1778859711 +0530	commit: Fix contact form to use FormSubmit and allow actual message sending
+ef196ede99c291e063707e2a8cc1251ce9900caa d8777aaa8ebd9fc7ea8010d05a912dbbad5b951d Phaneendra1228 <phanee2005@gmail.com> 1778859732 +0530	pull --rebase origin master (start): checkout d8777aaa8ebd9fc7ea8010d05a912dbbad5b951d
+d8777aaa8ebd9fc7ea8010d05a912dbbad5b951d cb4d0ae5cb03888bd1f94098c002fe75a9cc8b6a Phaneendra1228 <phanee2005@gmail.com> 1778859732 +0530	pull --rebase origin master (pick): Fix contact form to use FormSubmit and allow actual message sending
+cb4d0ae5cb03888bd1f94098c002fe75a9cc8b6a cb4d0ae5cb03888bd1f94098c002fe75a9cc8b6a Phaneendra1228 <phanee2005@gmail.com> 1778859732 +0530	pull --rebase origin master (finish): returning to refs/heads/master
+cb4d0ae5cb03888bd1f94098c002fe75a9cc8b6a f82e5347bf875e02932f2d9e9329dd9171dfbfb5 Phaneendra1228 <phanee2005@gmail.com> 1778860015 +0530	commit: Show success message on contact form submit
+f82e5347bf875e02932f2d9e9329dd9171dfbfb5 a61b2c9396664ac61fc7470a9e758fc38142608d Phaneendra1228 <phanee2005@gmail.com> 1778860225 +0530	commit: Switch contact form to direct FormSubmit submit and add success page
+a61b2c9396664ac61fc7470a9e758fc38142608d 25ed27aada990d0124aaffc813bc02c6f096a5f9 Phaneendra1228 <phanee2005@gmail.com> 1778863266 +0530	commit: Remove formsubmit.co due to downtime and fix project grid
+25ed27aada990d0124aaffc813bc02c6f096a5f9 843ae3deb6513b0a44be07492ceee772f15f88b3 Phaneendra1228 <phanee2005@gmail.com> 1778867938 +0530	commit: Update portfolio project filtering and contact form submit behavior
+843ae3deb6513b0a44be07492ceee772f15f88b3 45f14fb378241c178f259bdf6e0f1d529cbb1e68 Phaneendra1228 <phanee2005@gmail.com> 1778868128 +0530	commit: Update README to reflect portfolio project and remove preview image
+45f14fb378241c178f259bdf6e0f1d529cbb1e68 1c08d9ea56330697f086c6d071a3708ac5e10192 Phaneendra1228 <phanee2005@gmail.com> 1778868827 +0530	commit: Update script.js with latest portfolio changes
+1c08d9ea56330697f086c6d071a3708ac5e10192 8d5dfbcf5793a032776b236a38152b938b4eb435 Phaneendra1228 <phanee2005@gmail.com> 1778868844 +0530	pull --rebase origin master (start): checkout 8d5dfbcf5793a032776b236a38152b938b4eb435
+8d5dfbcf5793a032776b236a38152b938b4eb435 8d5dfbcf5793a032776b236a38152b938b4eb435 Phaneendra1228 <phanee2005@gmail.com> 1778868844 +0530	pull --rebase origin master (finish): returning to refs/heads/master
+8d5dfbcf5793a032776b236a38152b938b4eb435 d1c991b079ac1a00e0b5c99f9d3fb01851c891d1 Phaneendra1228 <phanee2005@gmail.com> 1778906032 +0530	commit: Update LearnFlow link to deployment
+d1c991b079ac1a00e0b5c99f9d3fb01851c891d1 14f0be1147393def2aa6a8f729d0b04a070b6ef6 Phaneendra1228 <phanee2005@gmail.com> 1778911981 +0530	commit: Update Interview Mentor project tag to App Development
+14f0be1147393def2aa6a8f729d0b04a070b6ef6 cf60a8c9530a43779a5c0a6efc6d88a149a590bc Phaneendra1228 <phanee2005@gmail.com> 1778912505 +0530	commit: Optimize layout spacing and reduce gaps between sections
+cf60a8c9530a43779a5c0a6efc6d88a149a590bc 4e859e110af3a55967cc1aa2c49058bbb3573b76 Phaneendra1228 <phanee2005@gmail.com> 1778915724 +0530	commit: Integrate Web3Forms for contact form and update resume download link
+4e859e110af3a55967cc1aa2c49058bbb3573b76 d7abeeff2388e5a8ce01cf32bc132ab8aee5023e Phaneendra1228 <phanee2005@gmail.com> 1778915845 +0530	commit: Add resume file
+d7abeeff2388e5a8ce01cf32bc132ab8aee5023e 07cdea36add5170d1833bbd4d6f3581194d97bb5 Phaneendra1228 <phanee2005@gmail.com> 1778916276 +0530	commit: Update Web3Forms integration to use JSON and add fallback form action
+07cdea36add5170d1833bbd4d6f3581194d97bb5 9c36b49835e27b106216a75fb220f6786dd9de94 Phaneendra1228 <phanee2005@gmail.com> 1778916381 +0530	commit: Fix CSS compatibility warnings for background-clip
+9c36b49835e27b106216a75fb220f6786dd9de94 59107d23ccacb6e6e44a92a89961b3a8099e384e Phaneendra1228 <phanee2005@gmail.com> 1778916630 +0530	commit: Add SEO and Open Graph meta tags for rich social link previews
+59107d23ccacb6e6e44a92a89961b3a8099e384e 05b264cda3d73a7e5837fc7b0c19c6e861f5d780 Phaneendra1228 <phanee2005@gmail.com> 1778916954 +0530	commit: Add Scroll to Top button functionality
+05b264cda3d73a7e5837fc7b0c19c6e861f5d780 dd6321b301abbaa8568ee57ddd76997e47a55188 Phaneendra1228 <phanee2005@gmail.com> 1778917359 +0530	commit: Add interactive hover tooltips for skills section
+dd6321b301abbaa8568ee57ddd76997e47a55188 291abd409c609e1604ce0fde229ecdfa95189463 Phaneendra1228 <phanee2005@gmail.com> 1778917572 +0530	commit: Update footer to a professional multi-column design
+291abd409c609e1604ce0fde229ecdfa95189463 35c18535bb3582d20f0d7045af3f3cd5158fd306 Phaneendra1228 <phanee2005@gmail.com> 1778917839 +0530	commit: Add cache-busting parameter to style.css to fix layout
+35c18535bb3582d20f0d7045af3f3cd5158fd306 fa430a81c8c97ea7df4dfb6a79466160c0a51540 Phaneendra1228 <phanee2005@gmail.com> 1778918110 +0530	commit: Shrink footer padding, contact textarea height, and update copyright year to 2026
+fa430a81c8c97ea7df4dfb6a79466160c0a51540 72975c9550d4ea398825532c9a8bbe214e31af01 Phaneendra1228 <phanee2005@gmail.com> 1778918686 +0530	commit: Add custom SVG logo to the footer
+72975c9550d4ea398825532c9a8bbe214e31af01 835589283ab30440dbd06390af621db26a3675e8 Phaneendra1228 <phanee2005@gmail.com> 1778918884 +0530	commit: Update SEO preview image to use uploaded logo
+835589283ab30440dbd06390af621db26a3675e8 aebe42d2c619042fead1a9e2e6a2aaae67b1e534 Phaneendra1228 <phanee2005@gmail.com> 1778919165 +0530	commit: Remove SVG logo from the footer
+aebe42d2c619042fead1a9e2e6a2aaae67b1e534 d927a11759f0608027db808e1d7ec58fe8b8a583 Phaneendra1228 <phanee2005@gmail.com> 1778919431 +0530	commit: Fix Open Graph URL capitalization and rename image to bust WhatsApp scraper cache
+d927a11759f0608027db808e1d7ec58fe8b8a583 e60d846641628b2cd90e2f9557d09dcbbe63aed8 Phaneendra1228 <phanee2005@gmail.com> 1778919909 +0530	commit: Replace broken screenshot with actual high-res generated logo image
+e60d846641628b2cd90e2f9557d09dcbbe63aed8 4a2a7d0649910d4d15c5247ba7af0305a499ef89 Phaneendra1228 <phanee2005@gmail.com> 1778923613 +0530	commit: Add custom scrollbar, scroll progress bar, staggered animations, and ambient breathing background
+4a2a7d0649910d4d15c5247ba7af0305a499ef89 08bf98f32841a1cbde603bfe6bace71c9a90f0bf Phaneendra1228 <phanee2005@gmail.com> 1778923950 +0530	commit: Add 'Hire Me' Call-To-Action button to Hero section
+08bf98f32841a1cbde603bfe6bace71c9a90f0bf bea7a825d476409912ef78a332cf5eb887fd327e Phaneendra1228 <phanee2005@gmail.com> 1778924088 +0530	commit: Center the Hire Me button and social icons on mobile screens
+bea7a825d476409912ef78a332cf5eb887fd327e 51411c7cd285aa5f79b5b8eb6b07fdaf65660689 Phaneendra1228 <phanee2005@gmail.com> 1778924217 +0530	commit: Update cache busting parameter so the new Hire Me styling loads for the user
