@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Premium Stopwatch | Chronos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Background Effects -->
+        <div class="bg-shape shape-1"></div>
+        <div class="bg-shape shape-2"></div>
+
+        <div class="stopwatch-card">
+            <div class="stopwatch-header">
+                <div class="status-dot"></div>
+                <span>Chronos Timepiece</span>
+            </div>
+
+            <div class="time-display" id="display">
+                <span id="minutes">00</span><span class="colon">:</span><span id="seconds">00</span><span class="dot">.</span><span id="milliseconds">00</span>
+            </div>
+
+            <div class="controls">
+                <button class="btn btn-secondary" id="lapBtn" disabled>Lap</button>
+                <button class="btn btn-primary" id="startStopBtn">
+                    <span class="btn-text">Start</span>
+                </button>
+                <button class="btn btn-danger" id="resetBtn" disabled>Reset</button>
+            </div>
+
+            <div class="laps-container">
+                <div class="laps-header">
+                    <span>Lap</span>
+                    <span>Lap Times</span>
+                    <span>Total Time</span>
+                </div>
+                <ul id="lapsList" class="laps-list">
+                    <!-- Laps will be dynamically inserted here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

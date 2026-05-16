@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="game-container">
+        <header>
+            <h1 class="glow-text">TIC <span class="accent">-</span> TAC <span class="accent">-</span> TOE</h1>
+            
+            <div class="mode-selector">
+                <button class="mode-btn active" id="btn-pvp" data-mode="pvp">Player vs Player</button>
+                <button class="mode-btn" id="btn-pva" data-mode="pva">Player vs AI</button>
+            </div>
+            
+            <div class="difficulty-selector hidden" id="difficulty-container">
+                <span class="diff-label">AI Level:</span>
+                <button class="diff-btn active" data-level="easy">Easy</button>
+                <button class="diff-btn" data-level="hard">Unbeatable</button>
+            </div>
+        </header>
+
+        <div class="status-panel">
+            <h2 id="status-text">Player <span class="player-x">X</span>'s Turn</h2>
+        </div>
+
+        <div class="board" id="board">
+            <div class="cell" data-index="0"></div>
+            <div class="cell" data-index="1"></div>
+            <div class="cell" data-index="2"></div>
+            <div class="cell" data-index="3"></div>
+            <div class="cell" data-index="4"></div>
+            <div class="cell" data-index="5"></div>
+            <div class="cell" data-index="6"></div>
+            <div class="cell" data-index="7"></div>
+            <div class="cell" data-index="8"></div>
+        </div>
+
+        <div class="controls">
+            <button class="reset-btn" id="reset-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5"/></svg>
+                Restart Game
+            </button>
+        </div>
+
+        <!-- Scoreboard -->
+        <div class="scoreboard">
+            <div class="score-card x-score">
+                <span>Player X</span>
+                <strong id="score-x">0</strong>
+            </div>
+            <div class="score-card ties">
+                <span>Ties</span>
+                <strong id="score-ties">0</strong>
+            </div>
+            <div class="score-card o-score">
+                <span>Player O</span>
+                <strong id="score-o">0</strong>
+            </div>
+        </div>
+    </div>
+
+    <!-- Win Modal -->
+    <div class="modal-overlay" id="modal">
+        <div class="modal-content glass">
+            <h2 id="modal-msg" class="glow-text">Player X Wins!</h2>
+            <button class="modal-btn" id="modal-close">Play Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

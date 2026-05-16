@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-wrap">
+        <div class="background-overlay" id="bg-overlay"></div>
+        <main>
+            <div class="weather-app">
+                <header>
+                    <div class="search-box">
+                        <i class='bx bx-search search-icon'></i>
+                        <input type="text" autocomplete="off" class="search-bar" placeholder="Search for a city..." id="search-input">
+                    </div>
+                    <button class="location-btn" id="location-btn" title="Get Current Location">
+                        <i class='bx bx-current-location'></i>
+                    </button>
+                </header>
+
+                <div class="weather-content hidden" id="weather-content">
+                    <div class="location">
+                        <div class="city" id="city-name">Loading...</div>
+                        <div class="date" id="date">--</div>
+                    </div>
+
+                    <div class="current">
+                        <div class="weather-icon-container">
+                            <i class='bx bx-cloud' id="weather-icon"></i>
+                        </div>
+                        <div class="temp"><span id="temperature">--</span><span>°c</span></div>
+                        <div class="weather" id="weather-desc">--</div>
+                        <div class="hi-low"><span id="temp-min">--</span>°c / <span id="temp-max">--</span>°c</div>
+                    </div>
+
+                    <div class="details-grid">
+                        <div class="detail-card">
+                            <i class='bx bx-droplet'></i>
+                            <div class="detail-info">
+                                <span class="label">Humidity</span>
+                                <span class="value" id="humidity">--%</span>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <i class='bx bx-wind'></i>
+                            <div class="detail-info">
+                                <span class="label">Wind</span>
+                                <span class="value" id="wind-speed">-- km/h</span>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <i class='bx bxs-thermometer'></i>
+                            <div class="detail-info">
+                                <span class="label">Feels Like</span>
+                                <span class="value" id="feels-like">--°c</span>
+                            </div>
+                        </div>
+                        <div class="detail-card">
+                            <i class='bx bx-tachometer'></i>
+                            <div class="detail-info">
+                                <span class="label">Pressure</span>
+                                <span class="value" id="pressure">-- hPa</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="loading-state hidden" id="loading-state">
+                    <i class='bx bx-loader-alt bx-spin'></i>
+                    <p>Fetching weather data...</p>
+                </div>
+                
+                <div class="error-state hidden" id="error-state">
+                    <i class='bx bx-error-circle'></i>
+                    <p id="error-message">Location not found.</p>
+                </div>
+
+                <div class="initial-state" id="initial-state">
+                    <i class='bx bx-globe'></i>
+                    <p>Enter a city name or use your current location to get the weather.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
